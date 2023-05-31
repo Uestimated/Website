@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins";
+  background-image: linear-gradient(
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.73)
+    ),
+    url("images/VasilAntevskiDrenBG.jpg");
+
+  background-repeat: no-repeat;
+  width: 1920;
+  height: 94.2vh;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  margin: 0px;
+}
+
+li {
+  font-size: 15px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+button {
+  font-family: "Poppins";
+}
+
+#btn-dark-outline {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 0.1rem 1rem;
+}
+
+#btn-dark-outline:hover {
+  background-color: black;
+  color: white;
+}
+
+#btn-dark-filled {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 1rem 2rem;
+}
+
+#btn-dark-filled:hover {
+  background-color: rgb(37, 37, 37);
+}
